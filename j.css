@@ -1,0 +1,180 @@
+/*h1{
+    color:aquamarine;
+}
+
+#headings{
+    color:blueviolet;
+}
+
+.violet{
+    color: brown;
+    padding: 20px 50px 70px ;
+    border:3px solid black;
+}
+.violet:hover{
+    color: red;
+    padding: 10px;
+    border:1px solid royalblue;
+    margin: 50px;
+}
+.large{
+    font-size: 14px;
+}
+
+div h1{
+    border: 2px solid green;
+
+}
+#container>h1:hover{
+    border :4px solid yellow;
+    background-color: cornflowerblue;
+    padding: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100px;
+}
+#parent-container{
+    border:2px solid black;
+    background-color: coral;
+    width:200px;
+    
+}*/
+
+
+/*.box{display: flex;
+    justify-content: space-around;
+    background-color:grey;
+    padding: 10px;
+    flex-wrap: wrap;*/
+    /*width: 500px;
+    height:100px;
+   
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-delay: 3s;
+}*/
+/*@keyframes box{
+    from{margin-left: 0px;}
+    to{margin-left: 100px;}
+    }
+    transform: scale(2,3);}
+    50%{background-color:hotpink;}
+    100%{background-color:green;}
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }*/
+/**{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}*/
+  .container{
+      width:80%;
+      margin: auto;
+  }
+  body{
+      background-color:ghostwhite;
+      color:green;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: normal;
+     /* same as above
+      font: normal 17px Arial, Helvetica, sans-serif;*/
+      line-height: 17px;
+      margin: 0;
+  }
+
+  .box1{
+      background-color: hotpink;
+      border:5px solid indianred;
+
+  }
+  .box1 h1{
+      font-family:cursive;
+      font-weight: 800;
+      letter-spacing: 0.3em;
+  }
+  .box2{
+      border: 3px dotted;
+      padding: 20px;
+      margin: 20px;
+      float:left;
+  }
+  .categories{
+      border:1px solid grey;
+      padding: 10px;
+      border-radius: 15px;
+  }
+  .categories h1{
+      text-align: center;
+  }
+  .categories ul{
+      list-style: square;
+  }
+  a{
+      text-decoration:none ;
+      color: black;
+  }
+  a:hover{
+      color:yellow;
+  }
+  .categories li{
+      border-bottom: 1px solid green;
+      padding-bottom: 1px;
+  }
+   html form label{
+      display: block;
+  }
+  html form input{
+      padding: 8px;
+      width:100%;
+  }
+.button:hover{
+    background-color: grey;
+}
+
+
+.block{
+    float:left;
+    width:33.3%;
+    border: 2px solid goldenrod;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: black;
+    color:white;
+    padding:15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+}
+.p-box h1{
+   /* position:absolute;*/
+   /* position: relative;*/
+
+
+}
+.fixme{
+    position:fixed;
+    top:900px;
+}
+.mylist li:first-child{
+background: brown;
+}
+.mylist li:sixth-child{
+    background: pink
+    }
+    .mylist li:nth-child(even){
+        background: grey;
+        }

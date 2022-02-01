@@ -1,6 +1,7 @@
- //function sum(a,b){
-    //return a+b;
-//}
+ function sum(a,b){
+    return a+b;
+}
+module.exports.sum=sum
  //function mul(a,b){
     //return a*b;
 //}
@@ -158,24 +159,46 @@
      //result.push(`${num}is not even`);
   // };
  
-   let num = [1,2,3,4,5]
-    //function squares(num){
+   //let num = [1,2,3,4,5]
+   //function functionCreator(num){
+    // return function(){
+    //console.log(num)}
+   //} 
+    //let x=functionCreator(5)
+    //console.log(x)
+    //x();
+
+
+    ///function squares(num){
     //return num*num};
     //const result=num.map(squares);
     //console.log(result)
  
-    function processItems(arr,func){
-     let result=[];
-       for(let i=0;i<arr.length;i++){
-      result.push(func(arr[i]));
-     }return result;
-    }
+   ///function processItems(arr,func){
+     //let result=[];
+       //for(let i of arr){
+      //result.push(func(arr[i]));
+     //}return result;
+    //}
 
-     function squares(){
-     return num*num
-     }
-     console.log(processItems(num,squares))
+     //function squares(){
+     //return num*num
+    //}
+     //console.log(processItems(num,squares))
+
   
  //function isEven(){
    //return num%2===0? "even" :  "odd"
  //}
+
+ //const c = setInterval(function(){
+   //setTimeout(function(){
+     //console.log('hello')
+   //},1000);
+ //},10000)
+//clearInterval(const c)
+
+//const string = "hey, it is Jaseela"
+//const regex = /Jaseela/;
+//const go= regex.exec(string)
+//console.log(go)

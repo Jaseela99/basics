@@ -1,0 +1,51 @@
+.spinner{ 
+  margin:400px;
+  padding:100px;
+    width:300px;
+    height: 300px;
+    position :relative;
+    display :flex;
+    justify-content: center;
+    
+}
+.spinner .dot{
+    position: absolute;
+    inset :0;      /*shorthand for top left right and bottom*/
+    display:flex;
+    justify-content: center;
+}
+.spinner .dot::after{  /* inserts something after the content of each selected element */
+    content:" ";
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+
+}
+
+@keyframes spin {
+    to{
+        transform:rotate(360deg);
+    }
+}
+.spinner .dot{
+    animation : spin 2s infinite;
+}
+.spinner .dot:nth-child(2){
+    animation-delay: 100ms;
+}
+.spinner .dot:nth-child(3){
+    animation-delay: 200ms;
+}
+.spinner .dot:nth-child(4){
+    animation-delay: 300ms;
+}
+.spinner .dot:nth-child(5){
+    animation-delay: 400ms;
+}
+.spinner .dot:nth-child(6){
+    animation-delay: 500ms;
+}
+.spinner .dot:nth-child(7){
+    animation-delay: 600ms;
+}
