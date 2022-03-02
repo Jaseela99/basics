@@ -215,26 +215,4 @@
     //}x()
 
 
-    //promise
-
-/* let p = new Promise((resolve,reject)=>{
-    let a =3               //if a=2 then it get rejected
-if (a==3){
-    resolve('success')
-}else{  reject('failed')}
-})
-
-
-p.then ((message)=>{            //if it resolves we use then
-    console.log(message)
-}).catch((message)=>{
-    console.log(message)        //if not catch
-}) */
-
-//async await
-
- async function jaseela(){           // when we give async function it returns a promise
-    return "jaseela"
-}
-let a = jaseela()
-console.log(a)
+    

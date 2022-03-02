@@ -1,6 +1,7 @@
 #! /usr/bin/bash             
 
 #Echo command
+#to run the file ./filename.sh on the terminal
 #echo hey people
 
 #variables :uppercase,letters,numbers and underscores
