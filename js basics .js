@@ -1,22 +1,4 @@
-//console.log (2+2)
-//console.log (2+"2", typeof (2+"2"))
-//console.log(2+"2"+2)
-//console.log(2+2+"2"+2)
-//console.log(2+2+"2"+2+2)
-//console.log(2+"2"+2+"2"+2+2)
 
-//var name= 'jaseela'
-//console.log(name,typeof name)
-//console.log(Number(name))
-
-//var a
-//console.log(a,typeof a)
-
-//var c= null
-//console.log(c,typeof c)
-
-//console.log(typeof (typeof name))
-//console.log(typeof(typeof age))
  
 
 //var name= '26'
@@ -176,3 +158,24 @@ print() */
       }
 var user1= new User("jaseela","a","006") 
      console.log(user1) */
+
+
+     //console.log (2+2)
+//console.log (2+"2", typeof (2+"2"))
+//console.log(2+"2"+2)
+//console.log(2+2+"2"+2)
+//console.log(2+2+"2"+2+2)
+//console.log(2+"2"+2+"2"+2+2)
+
+//var name= 'jaseela'
+//console.log(name,typeof name)
+//console.log(Number(name))
+
+//var a
+//console.log(a,typeof a)
+
+//var c= null
+//console.log(c,typeof c)
+
+//console.log(typeof (typeof name))
+//console.log(typeof(typeof age))
