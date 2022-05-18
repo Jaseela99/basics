@@ -1,3 +1,5 @@
+//array
+
 const  alphabet = ["a","b","c","d"]
 const number = [1,2,3,4]
 //destructuring array
@@ -12,3 +14,28 @@ const sumAndMultiply =(a,b) =>{
 }
 const [sum,multiply ] = sumAndMultiply(2,3)
 console.log(sum,multiply)
+
+
+//object
+
+const personOne = {
+    name:"john",
+    age:30,
+    
+}
+
+const personTwo = {
+    name:"jane",
+
+    address:{
+        city:"pune",
+        state:"maharashtra"
+    }
+}
+//if we have no food category we can use default value
+const {name,food="watermelon",city} = personOne
+console.log(name,food)
+
+//when we combine it overwrites first object with second object and if there is no property in second object it will not be overwritten
+const newPerson = {...personOne,...personTwo}
+console.log(newPerson)
